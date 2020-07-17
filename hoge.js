@@ -6,4 +6,5 @@ $("#btn1").on("click", function()  {
     let message = `今日は${year}年${month}月${day}日です`
     // jQueryを使って画面にメッセージを表示する
     $("#tBox").val(message);
+
   });
